@@ -1,0 +1,10 @@
+@layer components {
+  .outline-p {
+    -webkit-text-stroke: 1.5px orange;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
